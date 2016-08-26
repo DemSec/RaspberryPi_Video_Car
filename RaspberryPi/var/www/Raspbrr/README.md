@@ -1,6 +1,6 @@
 The directory where the robot's programming happens 
 
-__init__.py - Executed first; Includes website authenication; Sets up the available website URI directories. 
+__init__.py - Executed first; Includes website authenication credentials; Sets up the available website URI directories. 
 
 When a directory from the __init__.py is accessed through a GET request, 
 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Main Page</title>
+		<meta name="author" content="David">
+		<script src="Assets/jquery-3.1.0.min.js"></script>
+		<link rel="icon" href="/Assets/favicon.gif" type="gif">
+		<link rel="stylesheet" href="/Assets/styles.css">
+    
+		<style>
+      
+		</style>
+	</head>
+	<body>
+		<h>Main Robot Page</h><br>
+    
+		<button class="ButtonLink" onclick="/Assets/rick-roll.mp3')" >Click Here!</button>
+    
+		<form action="/post" method="post">
+			Turning:<br>
+				<input name="turning" type="text"><br>
+			Camera_x:<br>
+				<input name="camera_x" type="text"><br>
+			Camera_y:<br>
+				<input name="camera_y" type="text"><br>
+			Motor_R:<br>
+				<input name="motor_r" type="text"><br>
+			Motor_L:<br>
+				<input name="motor_l" type="text"><br>
+			Waypoint_List ( [(a,b),(a,b), ...] ):<br>
+				<input name="waypoint_list" type="text"><br>
+			Run_Mode:<br>
+				<input name="run_mode" type="text"><br>
+			<input value="Submit" type="submit">
+		</form>
+	
+		<audio id="player" preload="auto">
+			<source id="mp3_source" src="/Assets/rick-roll.mp3" type="audio/mpeg">
+		</audio>
+    
+		<script type="text/javascript">
+		$(document).keyup(function(e) {
+			if (e.keyCode == 27) { $("#player")[0].pause(); }   // Esc to pause
+		});
+
+		function play(url) {
+			$("#mp3_source").attr("src", url);
+			$("#player")[0].load();
+			$("#player")[0].play();
+		}
+		$('form').submit(function(e){
+			e.preventDefault();
+			$.post("/post", "turning=100", function(receivedData){
+				useTheResponseData(receivedData);
+			});
+		});
+		</script>
+	</body>
+</html>

@@ -1,1 +1,1 @@
-This is the main, root directory of the RaspberryPi
+# Main root directory of the RaspberryPi

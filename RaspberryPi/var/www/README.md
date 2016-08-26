@@ -1,1 +1,1 @@
-The directory where the robot's programming happens
+Apache reads and executes this directory

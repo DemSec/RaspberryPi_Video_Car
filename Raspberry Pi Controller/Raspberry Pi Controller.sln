@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5A435564-AC77-D197-288D-5696226AFEEE}") = "Raspberry Pi Controller", "Assembly-CSharp-firstpass.csproj", "{A0F4B487-15AF-C593-E76A-1214C7523DE3}"
+EndProject
+Project("{5A435564-AC77-D197-288D-5696226AFEEE}") = "Raspberry Pi Controller", "Assembly-CSharp.csproj", "{9D96E95A-2468-91CA-6EB6-9F9B3A135EB5}"
+EndProject
+Project("{5A435564-AC77-D197-288D-5696226AFEEE}") = "Raspberry Pi Controller", "Assembly-CSharp-Editor.csproj", "{9E10164D-8DA9-F2DF-19B5-40901CDABB71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F4B487-15AF-C593-E76A-1214C7523DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F4B487-15AF-C593-E76A-1214C7523DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F4B487-15AF-C593-E76A-1214C7523DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F4B487-15AF-C593-E76A-1214C7523DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D96E95A-2468-91CA-6EB6-9F9B3A135EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D96E95A-2468-91CA-6EB6-9F9B3A135EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D96E95A-2468-91CA-6EB6-9F9B3A135EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D96E95A-2468-91CA-6EB6-9F9B3A135EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E10164D-8DA9-F2DF-19B5-40901CDABB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E10164D-8DA9-F2DF-19B5-40901CDABB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E10164D-8DA9-F2DF-19B5-40901CDABB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E10164D-8DA9-F2DF-19B5-40901CDABB71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

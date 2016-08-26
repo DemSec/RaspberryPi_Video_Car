@@ -6,7 +6,7 @@ Official android app: https://play.google.com/store/apps/details?id=appinventor.
 
 This is a custom remake of the original Raspberry Pi Video Car Robot code
 
-My version of the code controlls the robot through an SSL encrypted (self signed)
+My version of the code controlls the robot through SSL encrypted (self signed)
 
 POST form requests instead of GET requests, and includes Apache server authenication. 
 

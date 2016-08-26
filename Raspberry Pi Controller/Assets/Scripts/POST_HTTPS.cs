@@ -21,7 +21,7 @@ public class POST_HTTPS : MonoBehaviour {
 		HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 		request.ContentType = "application/x-www-form-urlencoded";
 		request.PreAuthenticate = true;
-		request.Credentials = new NetworkCredential ("Robot","21a343GeeK71xL!&");
+		request.Credentials = new NetworkCredential ("Robot","password");
 		request.Method = "POST";
 
 		// Make a list of variables to POST

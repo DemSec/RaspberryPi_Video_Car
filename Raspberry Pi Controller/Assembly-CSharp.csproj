@@ -45,20 +45,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GemExample\Scripts\DemoTimeOfDay.cs" />
-     <Compile Include="Assets\GemExample\Scripts\Orbit.cs" />
      <Compile Include="Assets\Scripts\Console.cs" />
      <Compile Include="Assets\Scripts\Control.cs" />
      <Compile Include="Assets\Scripts\Cube_Rotate.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
-     <Compile Include="Assets\Scripts\POST_Form2.cs" />
      <Compile Include="Assets\Scripts\POST_HTTP.cs" />
      <Compile Include="Assets\Scripts\POST_HTTPS.cs" />
      <Compile Include="Assets\Scripts\SpinCamera.cs" />
      <Compile Include="Assets\Scripts\Stream_HTTPS.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Gem\Shaders\Gem.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -4,7 +4,7 @@ Smart Video Car Kit for Raspberry Pi with Custom Android App
 Buy Here: https://www.sunfounder.com/robotic-drone/smart-video-car-kit/rpi-car.html
 Official android app: https://play.google.com/store/apps/details?id=appinventor.ai_cavonxx.SunFounder_Smart_Video_Car
 
-This is a custom remake of the original Raspberry Pi Video Car Robot
+This is a custom remake of the original Raspberry Pi Video Car Robot code
 
 My version of the code controlls the robot through an SSL encrypted (self signed)
 
